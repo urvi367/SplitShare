@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/deep_green</item>
+    </style>
+
+    <color name="deep_green">#306060</color>
+    <color name="shallow_green">#85B2B2</color>
+    <color name="khaki">#E4C28E</color>
+    <color name="grey">#B9C6CA</color>
+    <color name="off_white_opaque">#F6F6F6</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="dark_black">#333333</color>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/dark_black</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/deep_green</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimaryDark">@color/deep_green</item>
+        <item name="colorPrimary">@color/pure_white</item>
+        <item name="colorAccent">@color/deep_green</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:windowBackground">@color/off_white_opaque</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
